@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?","Hey","Hello", "Good day","Whats up"],
+         "responses": ["Hello!","Hey!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving","bb", "Bye","Have a Good day"],
+         "responses": ["Sad to see you go :(", "Take care of yourself! :)","Bye bye :)", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is CBX ", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 1 years old!", "1 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me CBX.", "I'm CBX.", "My owner calls me CBX.","I'm CBX."],
+         "context_set": ""
+        },
+        {"tag": "joke",
+        "patterns": ["A joke?","Tell me a joke", "Make me a joke","Crack a joke","Make a funny joke","Would you joke","Would you joke me more"],
+        "responses": ["God is really creative, i mean just look at me. :)="," I have a long history of bad luck, and it all started when I born."],
+        "context_set": ""
+        },
+        {"tag": "about",
+        "patterns": ["Can you tell me about yourself?","Who are you?","Tell me about yourself","Could you talk about yourself?"],
+        "responses": ["My name is CBX. I'm one year old and programmed to help people","I'm here to help people."],
+        "context_set": ""
+        },
+        {"tag": "denigrate",
+        "patterns": ["Are you stupid?","Are you loser?","Are you dumb?"],
+        "responses": ["Mind your language!","Please don't use swear words :(","How rude of you!","You should apologize to me!"],
+        "context_set": ""
+        },
+        {"tag": "sorry",
+        "patterns": ["Im sorry","Do you forgive me? ","I'm so sorry it is my fault."],
+        "responses": ["I forgive you.","Don't talk to me like that again."],
+        "context_set": ""
+        },
+        {"tag": "health",
+        "patterns": ["I do not feel good.","I feel sick.","I'm not feeling good."],
+        "responses": ["What are your symptoms ?","Are there any symptoms of illness ?"],
+        "context_set": ""
+        },
+        {"tag": "advice",
+        "patterns": ["i get cough very frequently. ","i have muscle pain","i have shortness of breath"],
+        "responses": ["Stay home if you feel unwell. ","Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people."],
+        "context_set": ""
+        },
+        {"tag": "definition",
+        "patterns": ["Why would i do this ?","What does it mean ?","What does it mean ?"],
+        "responses": ["You might be covid-19."],
+        "context_set": ""
+        },
+        {"tag": "covid-19",
+        "patterns": ["What is covid-19 ?","covid-19 ?","How is covid-19 treated ?","How is covid-19 diagnosed ?","Does covid-19 cause death ?"],
+        "responses": ["Click on the links --> https://www.who.int/health-topics/coronavirus#tab=tab_1 "],
+        "context_set": ""
+        }
+   ]
+}
